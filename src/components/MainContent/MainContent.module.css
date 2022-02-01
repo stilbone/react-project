@@ -1,0 +1,11 @@
+.mainContent {
+  margin: 90px 120px;
+}
+
+.hr{
+  content: ' ';
+  height: 1px;
+  margin-left: 0;
+  background-color :#E5E4E4;
+  width: 990px;
+}

@@ -1,0 +1,32 @@
+.inputDiv {
+  display: grid;  
+  grid-template-columns: 224px min-content max-content;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.header {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 19px;
+  text-align: left;
+}
+
+.input {
+  padding: 0;
+  width: 334px;
+  height: 31px;
+  border: 1px solid #999999;  
+}
+
+.paragraph {
+  margin-left: 18px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+}

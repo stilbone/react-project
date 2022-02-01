@@ -1,0 +1,68 @@
+.main {
+  display: grid;
+  margin-left: 224px;
+  grid-template-rows: repeat(1, 1fr);
+  width: 503px;
+  margin-bottom: 30px;
+}
+.main::before {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #eaeaea;
+}
+.statusText {
+  background-color: #eaeaea;
+  padding: 12px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #404040;
+  text-align: left;
+}
+.statusButton {
+  position: absolute;
+  top: 104px;
+  left: 748px;
+  border: none;
+  border-bottom: 1px dashed #0c77bb;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #0c77bb;
+}
+
+.statusButton:hover {
+  color: #1a5c85;
+}
+
+.input_visible {
+  opacity: 1;
+  background-color: #eaeaea;
+  padding: 12px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #404040;
+  text-align: left;
+  border: none;
+  position: absolute;
+  margin-top: 7px;
+  width: 30rem;
+}
+
+.input_notvisible {
+  opacity: 0;
+  position: absolute;
+}

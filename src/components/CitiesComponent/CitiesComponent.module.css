@@ -1,0 +1,22 @@
+.div {
+  display: grid;
+  grid-template-columns: 224px min-content;
+  align-items: center; 
+  margin-bottom: 32px;
+  
+}
+
+.header {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 19px;
+  text-align: left;
+}
+
+.select {
+  width: 336px;
+  height: 31px;
+  border: 1px solid #999999;
+}

@@ -1,0 +1,13 @@
+.header {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: #666666;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.span {
+  color: #000;
+}
